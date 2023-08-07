@@ -1,8 +1,13 @@
-# Nuxt 3 Minimal Starter
+# Ultimate Drink Guide
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Webapp created to show how to prepare different drinks and view their ingredients found in [TheCocktailDB](https://www.thecocktaildb.com/api.php) API.
+
+## Live Demo
+https://splendid-creponne-acaaa4.netlify.app
 
 ## Setup
+### Pre requisites
+- Node.js v16.10.0 or newer
 
 Make sure to install the dependencies:
 

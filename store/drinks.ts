@@ -110,7 +110,6 @@ export const useDrinksStore = defineStore('drink', {
       },
       saveDrink(drink: { strDrink: string; strCategory?: string | undefined; }) {
         this.savedDrinks.push(drink)
-        console.log(this.savedDrinks)
         nuxtStorage.localStorage.setData('drinks', this.savedDrinks, 1, 'h');
       },
       async fetchDrinkByName(name: string) {
